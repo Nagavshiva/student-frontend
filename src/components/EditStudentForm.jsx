@@ -48,7 +48,7 @@ const EditStudentForm = () => {
             <TextField label="Name" value={name} onChange={(e) => setName(e.target.value)} fullWidth />
           </Grid>
           <Grid item xs={6}>
-            <TextField label="Age" value={age} onChange={(e) => setAge(e.target.value)} fullWidth />
+            <TextField label="Age" type="number" value={age} onChange={(e) => setAge(e.target.value)} fullWidth />
           </Grid>
           <Grid item xs={6}>
             <TextField label="Grade" value={grade} onChange={(e) => setGrade(e.target.value)} fullWidth />
